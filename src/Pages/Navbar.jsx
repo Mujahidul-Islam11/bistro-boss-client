@@ -12,6 +12,7 @@ const Navbar = () => {
     logOut().then().catch();
   };
 
+  // Navbar links over here
   const link = (
     <>
       <li>
@@ -60,6 +61,8 @@ const Navbar = () => {
       )}
     </>
   );
+
+  
   return (
     <div className="navbar fixed z-10 max-w-screen-xl bg-black bg-opacity-30 text-white">
       <div className="navbar-start">
